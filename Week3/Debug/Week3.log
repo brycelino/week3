@@ -1,3 +1,3 @@
 ﻿  Week3.cpp
-C:\Users\bryce\source\repos\Week3\Week3.cpp(20,23): warning C4018: '<': signed/unsigned mismatch
-  Week3.vcxproj -> C:\Users\bryce\source\repos\Week3\Debug\Week3.exe
+C:\Users\S7503154\Downloads\week3-main\week3-main\Week3\Week3.cpp(61,23): warning C4018: '<': signed/unsigned mismatch
+  Week3.vcxproj -> C:\Users\S7503154\Downloads\week3-main\week3-main\Week3\Debug\Week3.exe
