@@ -1,3 +1,4 @@
 ﻿  Week3.cpp
-C:\Users\S7503154\Downloads\week3-main\week3-main\Week3\Week3.cpp(61,23): warning C4018: '<': signed/unsigned mismatch
-  Week3.vcxproj -> C:\Users\S7503154\Downloads\week3-main\week3-main\Week3\Debug\Week3.exe
+C:\Users\bryce\OneDrive\Documents\GitHub\school c# g&s\week3\Week3\Week3.cpp(49,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\bryce\OneDrive\Documents\GitHub\school c# g&s\week3\Week3\Week3.cpp(86,23): warning C4018: '<': signed/unsigned mismatch
+  Week3.vcxproj -> C:\Users\bryce\OneDrive\Documents\GitHub\school c# g&s\week3\Week3\Debug\Week3.exe

@@ -6,6 +6,7 @@ using namespace std;
 #include<string>
 #include<vector>
 #include<sstream>
+#include <numeric>
 
 
 class Student {
@@ -36,10 +37,32 @@ Student Break(string line)
     return s;
 }
 
+void bubbleSort(vector<Student> &listOfStudent)
+{
+    
+}
+
+int getAverageGrade(vector<Student> listOfStudent)
+{
+    int average = 0;
+    
+    for (int i = 0; i <listOfStudent.size(); i++)
+    {
+        average += listOfStudent[i].grade;
+      
+   }
+   
+    average/= listOfStudent.size(); 
+    
+    return average;
+}
+
 int main()
 {
     
     vector<Student> students;
+    
+
     ifstream myFile("example.txt"); //a stream of data used for reading input from a file
     string currentLine;
     if (myFile.is_open())
@@ -54,10 +77,12 @@ int main()
              
         }
     }
+    getAverageGrade(students);
+    cout << getAverageGrade(students) << endl;
 
-    Student s = Break("firdt last 90");
+    Student s = Break("first last 15");
     //cout << s.firstName;
-
+   
     for (int i = 0; i < students.size(); i++)
     {
         cout << students[i].firstName << endl;
@@ -65,12 +90,15 @@ int main()
         cout << students[i].grade << endl;
 
         cout << "--------------" << endl;
+        
     }
-
+    
     // reorder the students
+   
+    
 
     // average grade
-    
+   
  }
    
 
